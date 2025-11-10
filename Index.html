@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New-Note</title>
+    <link rel="stylesheet" href="Index.css">
+    <script src="Index.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <marquee style="font-size: 20px;"> Senior Man New-Note-Pad </marquee>
+        </div>
+        <div class="headerItemTwo">
+            <label for="Font-Size"> Font-Size: <input type="number" id="fontSize"></label>
+            <label for="Font-Family"> Font-Family: <input type="text" id="fontFamily"></label>
+            <label for="Colour"> Font-Colour: <input type="text" id="fontColor"></label>
+            <label for="Background-Colour"> Background-Colour: <input type="text" id="backgroundColor"></label>
+            <label for="page-Number"> Page-Number: <input type="number" id="pageNumber"></label>
+            <input type="button" value="CREATE PAGE" id="createPageBtn" onclick="myFunction()">
+            <input type="button" value="APPLY STYLE" id="applyStyle" onclick="applyStyle()">
+
+        </div>
+    </header>
+    <main id="main">
+        <aside>
+            <h4 style="text-align: center; font-size: 18px; margin-top: 10px; "> 
+                WORKING FOLDERS AND FILES 
+            </h4>
+            <button type="button" style=" width: auto; height: auto; font-size: 18px; border-radius: 20px;border: 0px; margin-top: -10px;">
+                OPEN DOCUMENTS HERE
+            </button>
+        </aside>
+
+        <section id="section">
+
+        </section>
+
+        <article>
+            <img src="Note Advert.jpg" class="advertImg">
+        </article>
+    </main>
+    <footer id="footer">
+
+    </footer>
+
+</body>
+</html>
